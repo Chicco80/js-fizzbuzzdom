@@ -14,10 +14,10 @@
 
  
 
-   for ( let i = 1; i <=100; i++){
+   for ( let is = 1; is <=100; is++){
 
-    if(i % 3 == 0)
-    console.log(i);
+    if(is % 3 == 0)
+    console.log(is);
 
  }
   const app = document.getElementById("app");
@@ -25,7 +25,7 @@
   fizz.setAttribute("class","div-3");
   app.append(fizz);
   console.log(fizz)
-  fizz.innerHTML=  "fizz";
+  fizz.innerHTML = is + "fizz";
 
 
  //dividi per 5
