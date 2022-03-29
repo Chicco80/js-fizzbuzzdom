@@ -1,6 +1,7 @@
-.quadratino{
+.box{
     width:100px;
     height: 100px;
+    line-height: 100px;
     margin: 0 auto;
     text-align:center;
     font-size:30px;
@@ -9,3 +10,22 @@
     box-shadow: 2px 1px 15px black ;
     border-radius: 20px;
 }
+
+.fizz{
+    background-color: aqua;
+    border: 1px solid aqua;
+   
+}
+
+.buzz{
+    background-color: red;
+    border: 1px solid red;
+   
+}
+
+.fizzbuzz{
+    background-color: green;
+    border: 1px solid green;
+   
+}
+
