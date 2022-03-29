@@ -1,19 +1,11 @@
-.div-3{
-    background-color: aqua;
-    text-align: center;
-    margin-top: 50px;
-    
-}
-
-.div-5{
+.quadratino{
+    width:100px;
+    height: 100px;
+    margin: 0 auto;
+    text-align:center;
+    font-size:30px;
     background-color: blueviolet;
-    text-align: center;
-    margin-top: 50px;
-
-}
-
-.div-5-3{
-    background-color: crimson;
-    text-align: center;
-    margin-top: 50px;
+    border: 1px solid blueviolet;
+    box-shadow: 2px 1px 15px black ;
+    border-radius: 20px;
 }

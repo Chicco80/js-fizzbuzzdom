@@ -1,69 +1,42 @@
 
 
-//stampo da 1 a 100 in console
+
+
+
+
 
   let ripetizioni = 100;
 
    for ( let i = 1; i <=100; i++){
+
+      
+
+
       if ((i % 3 == 0) && ( i % 3 == 0)){
       console.log("fizzbuzz");
+      document.write( "fizzbuzz") 
 
    } else if (i % 3 == 0){
       console.log("fizz")
+      document.write( "fizz") 
 
    } else if ( i % 5 == 0){
       console.log("buzz");
    } else {
-      console.log(i);
+      console.log (i);
+      document.write(i)
+
+      // document.write(i ++) + "fizzbuzz"
 
 
    }
+    
 }
+    
 
 
- //stampo i multipli di 3
-
- 
-
-//    for ( let i = 1; i <=100; i++){
-
-//     if(i % 3 == 0)
-//     console.log(is);
-
-//  }
-//   const app = document.getElementById("app");
-//   const fizz = document.createElement("div");
-//   fizz.setAttribute("class","div-3");
-//   app.append(fizz);
-//   console.log(fizz)
-// //   fizz.innerHTML = is + "fizz";
 
 
-//  //dividi per 5
-
-//    for ( let i = 1; i <=100; i++){
-
-//     if(i % 5 == 0)
-//     console.log(i);
-
-
-//  }
-//   const secondo = document.getElementById("secondo");
-//   const buzz = document.createElement("div");
-//   buzz.setAttribute("class","div-5");
-//   app.append(buzz);
-//   console.log(buzz)
-//   buzz.innerHTML=  "buzz";
-
-// // divido per 3 e 5
-
-// for ( let i = 1; i <=100; i++){
-
-//    if ((i % 3 == 0) && ( i % 3 == 0))
-//     console.log(i);
-
-
-// }
 //  const terzo = document.getElementById("terzo");
 //   const fizzbuzz = document.createElement("div");
 //   fizzbuzz.setAttribute("class","div-5-3");
